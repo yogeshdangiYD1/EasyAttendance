@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/square_background">
+
+        <TextView
+            android:id="@+id/classTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Class Name"
+            android:textColor="#FDFDFD"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+
+
+    </FrameLayout>
+</LinearLayout>
